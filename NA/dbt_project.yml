@@ -6,5 +6,3 @@ models:
   "dbt_project_repo":    # You can keep this for future use
     +materialized: table
 
-  ".":                   # ⚠️ THIS is what enables root-level models
-    +materialized: table
