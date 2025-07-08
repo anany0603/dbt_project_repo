@@ -5,3 +5,4 @@ profile: 'Snowflake_Conn'
 models:
   dbt_project_repo:
     materialized: view
+
