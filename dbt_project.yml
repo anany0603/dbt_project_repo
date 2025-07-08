@@ -1,7 +1,0 @@
-name: 'dbt_project_repo'
-version: '1.0'
-profile: 'Snowflake_Conn'
-
-models:
-  .:
-    +materialized: table
