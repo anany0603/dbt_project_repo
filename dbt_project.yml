@@ -3,5 +3,6 @@ version: '1.0'
 profile: 'Snowflake_Conn'
 
 models:
-  ".":                     # This allows models directly under models/
+  ".":                    
     +materialized: table
+
