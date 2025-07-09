@@ -3,6 +3,5 @@ version: '1.0'
 profile: 'Snowflake_Conn'
 
 models:
-  ".":                    
-    +materialized: table
-
+  dbt_project_repo:
+    materialized: view
